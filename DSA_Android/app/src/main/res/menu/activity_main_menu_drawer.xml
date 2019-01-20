@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@mipmap/ic_profile_layer"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_ranking"
+            android:icon="@mipmap/ic_ranking_layer"
+            android:title="Ránking" />
+        <item
+            android:id="@+id/nav_monstruos"
+            android:icon="@mipmap/ic_monstruo_layer"
+            android:title="Monstruos" />
+        <item
+            android:id="@+id/nav_inventario"
+            android:icon="@mipmap/ic_inventario_layer"
+            android:title="Inventario" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Cerrar Sesión" />
+    </group>
+
+    <item android:title="Comunicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/sym_action_chat"
+                android:title="Sobre nosotros" />
+        </menu>
+    </item>
+
+</menu>

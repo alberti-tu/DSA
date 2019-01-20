@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Creador de mapas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="creadorMapas/assets/css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="icon" href="/myapp/web/images/Tab" type="image/png">
+</head>
+<body >
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/myapp/web">DSA Proyecto</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/myapp/web">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/myapp/web/creadorMapas">Creador de Mapas<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+        <ul class="navbar-nav navbar-expand-lg d-md-flex ">
+            <li class="nav-item"><a class="nav-link" href="/myapp/web/registro">Register<span class="sr-only">(current)</span></a></li>
+        </ul>
+    </div>
+
+</nav>
+
+<div id="TituloEspacio">
+    <h1 >Creador de mapas</h1>
+
+    <div class="container infoGrupo">
+        <div id="pasos">
+            <span class="spanI step">
+                <canvas class="pas" height="30px" width="30px"></canvas>
+                </span>
+            <span class="spanI step">
+                <canvas class="pas" height="30px" width="30px"></canvas>
+                </span>
+            <span class="spanI step">
+                <canvas class="pas" height="30px" width="30px"></canvas>
+                </span>
+        </div>
+        <div id="inicioCreador">
+            <div class="form-group">
+                <label for="columns">Numero de Columnas</label>
+                <input id="columns" class="form-control" type="number" title="Columnas">
+            </div>
+            <div class="form-group">
+                <label for="rows">Numero de Filas</label><br>
+                <input id="rows" class="form-control" type="number" title="Filas">
+            </div>
+            <div class="form-group">
+                <label for="nivelDeZona">Nivel de los monstruos del escenario</label><br>
+                <input id="nivelDeZona" class="form-control" type="number" title="Filas">
+            </div>
+        </div>
+
+        <div id="mapaStep" hidden="true">
+            <div id="mapaTabla">
+                <table id="mapa">
+                    <tr>
+                        <th></th>
+                        <th>1</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <td class = 'mapCell'></td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div >
+                <div id="parametrosNumberDiv">
+                    <div class="form-group">
+                        <label for="parametros">Numero de Parametros</label><br>
+                        <input id="parametros" class="form-control" type="number" value=0 title="Parametros">
+                        <input id="envNumPar" class="form-control btn btn-primary centrar" value="envNumPar" type="button">
+                    </div>
+                </div>
+                <div id="parametroSelect" hidden="true">
+                </div>
+            </div>
+
+            <div>
+                <form id="celdasSelect">
+                </form>
+            </div>
+        </div>
+        <div id="inOut" hidden="true">
+            <div id="in">
+                <div class="form-group">
+                    <label for="inRow">Escoge el nombre del Escenario</label>
+                    <input id="inRow" class="form-control" type="text" title="Columnas">
+                </div>
+            </div>
+            <div id="divCeldas">
+                <div action="guardarMapa" method="post" id="resultado">
+                    <input id="Atras2"class="btn btn-primary centrar" style="margin-right: 20px" value="Atras" type="button">
+                    <input id="Guardar" class="btn btn-primary centrar" value="Guardar" type="submit">
+                </div>
+            </div>
+        </div>
+
+        <input id="Atras" class="btn btn-primary centrar " style="margin-right: 20px" value="Atras" type="button" hidden="true">
+        <input id="Aplicar" class="btn btn-primary centrar" value="Aplicar" type="button">
+
+        <div id="resultadoGuardar" hidden="true">
+            <h2>El guardado se ha realizado correctamente</h2>
+        </div>
+
+    </div>
+</div>
+<div class="contenido">
+
+    <div id="about">
+        <div id="info">
+                <span class="spanI">
+                    <a href="/myapp/web/about">About</a>
+                </span>
+            <span class="spanI">
+                    <a href="https://github.com/alberti-tu/DSA_Android">Codigo Android</a>
+                </span>
+            <span class="spanI">
+                    <a href="https://github.com/alberti-tu/DSA_Proyecto">Codigo Servidor & Web</a>
+                </span>
+            <span class="spanI">
+                    <a href="https://eetac.upc.edu/ca">EETAC</a>
+                </span>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+<script src="creadorMapas/assets/js"></script>
+
+</body>
+</html>

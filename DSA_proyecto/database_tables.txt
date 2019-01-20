@@ -1,0 +1,7 @@
+create database dsa;
+
+CREATE TABLE MonstruoDAO (id varchar(100), tipo varchar(45), experiencia int, nivel int, vidaActual int, nombreUsuario varchar(100));
+
+create table ObjetoDAO (id varchar(100), tipo varchar(100), extra varchar(500), numArgs int, nombreUsuario varchar(100));
+
+create table UsuarioDAO (id varchar(100), password varchar(100), x int, y int, genero tinyint(1), email varchar(100), nombreMapa varchar(100));

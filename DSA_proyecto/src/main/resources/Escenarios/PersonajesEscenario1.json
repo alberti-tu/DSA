@@ -1,0 +1,108 @@
+{
+  "personajes": [
+    {
+      "tipo": "Usuario",
+      "nombre": "juan",
+      "x": 3,
+      "y": 3,
+      "genero": true,
+      "password":"oscar",
+      "email":"oscarmampel@hotmail.com",
+      "monstruos": [
+        {
+          "tipo": "MonstruoEjemplo",
+          "nivel": 1,
+          "experiencia": 50
+        },
+        {
+          "tipo": "MonstruoEjemplo",
+          "nivel": 2,
+          "experiencia": 100
+        },
+        {
+          "tipo": "MonstruoEjemplo",
+          "nivel": 3,
+          "experiencia": 200
+        }
+      ],
+      "objetos":[
+        {
+          "tipo":"Pocion",
+          "extraArgs":{
+            "numeroParametros":2,
+            "Str0":"Pocion pequeña",
+            "int1":200
+          }
+        },
+        {
+          "tipo":"PocionExperiencia",
+          "extraArgs":{
+            "numeroParametros":2,
+            "Str0":"Pocion pequeña de Experiencia",
+            "int1":20
+          }
+        },
+        {
+          "tipo":"PiedraTeleport",
+          "extraArgs":{
+            "numeroParametros":3,
+            "int0":1,
+            "int1":2,
+            "Str2":"escenarioDePrueba"
+          }
+        }
+        ]
+    },
+    {
+      "tipo": "Enemigo",
+      "nombre": "pol",
+      "x": 2,
+      "y": 2,
+      "genero": true,
+      "monstruos": [
+        {
+          "tipo": "MonstruoEjemplo",
+          "nivel": 1,
+          "experiencia": 50
+        },
+        {
+          "tipo": "MonstruoEjemplo",
+          "nivel": 2,
+          "experiencia": 100
+        },
+        {
+          "tipo": "MonstruoEjemplo",
+          "nivel": 3,
+          "experiencia": 200
+        }
+      ],
+      "objetos":[
+        {
+          "tipo":"Pocion",
+          "extraArgs":{
+            "numeroParametros":2,
+            "Str0":"Pocion pequeña",
+            "int1":200
+          }
+        },
+        {
+          "tipo":"PocionExperiencia",
+          "extraArgs":{
+            "numeroParametros":2,
+            "Str0":"Pocion pequeña",
+            "int1":20
+          }
+        },
+        {
+          "tipo":"PiedraTeleport",
+          "extraArgs":{
+            "numeroParametros":3,
+            "int0":1,
+            "int1":2,
+            "Str2":"escenarioDePrueba"
+          }
+        }
+      ]
+    }
+  ]
+}

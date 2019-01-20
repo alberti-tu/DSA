@@ -1,0 +1,56 @@
+[
+  {
+    "tipo": "CeldaCesped",
+    "numArgs":0,
+    "args":"",
+    "image":"green"
+  },
+  {
+    "tipo": "CeldaPared",
+    "numArgs":0,
+    "args":"",
+    "image":"grey"
+  },
+  {
+    "tipo": "CeldaFueraEscenario",
+    "numArgs":0,
+    "args":"",
+    "image":"white"
+  },
+  {
+    "tipo": "CeldaCambioEscenario",
+    "numArgs":0,
+    "args":"",
+    "image":"black"
+  },
+  {
+    "tipo": "CeldaCamino",
+    "numArgs":0,
+    "args":"",
+    "image":"orange"
+  },
+  {
+    "tipo": "CeldaEscaleraVertical",
+    "numArgs":0,
+    "args":"",
+    "image":"red"
+  },
+  {
+    "tipo": "CeldaPuerta",
+    "numArgs":0,
+    "args":"",
+    "image":"yellow"
+  },
+  {
+    "tipo": "CeldaArena",
+    "numArgs":0,
+    "args":"",
+    "image":"brown"
+  },
+  {
+    "tipo": "CeldaAgua",
+    "numArgs":0,
+    "args":"",
+    "image":"blue"
+  }
+]

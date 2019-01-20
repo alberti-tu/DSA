@@ -1,0 +1,264 @@
+{
+  "escenario":
+  {
+    "ancho": 7,
+    "alto": 7,
+    "nombre": "escenarioDePrueba",
+    "nivelDeEscenario":1,
+    "celdas":
+    [
+      {
+        "tipo": "CeldaPared",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 3,
+        "y": 0
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 4,
+        "y": 0
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 5,
+        "y": 0
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 6,
+        "y": 0
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 0,
+        "y": 1
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 6,
+        "y": 1
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 0,
+        "y": 2
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 6,
+        "y": 2
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 0,
+        "y": 3
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 6,
+        "y": 3
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 6,
+        "y": 4
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 0,
+        "y": 5
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "tipo": "CeldaCesped",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "tipo": "CeldaCambioEscenario",
+        "x": 6,
+        "y": 5,
+        "extraArgs":
+        {
+          "numeroParametros": 3,
+          "Str0": "otroEscenario",
+          "int1": 2,
+          "int2": 2
+        }
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 0,
+        "y": 6
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 5,
+        "y": 6
+      },
+      {
+        "tipo": "CeldaPared",
+        "x": 6,
+        "y": 6
+      }
+    ]
+  }
+}
